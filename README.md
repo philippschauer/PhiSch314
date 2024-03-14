@@ -26,3 +26,9 @@ so we can call the model from the following link:
 ```localhost:8314/docs```
 
 ## Task 2
+
+In this task, the goal is to design a concept of a system that reads a PDF document of several products and saves the individual positions in a structured dataframe.
+
+Therefore, I created a document that outlines a mapping of several components working together, first to read the document and extract the text, then an NLP model that is trained on the texts of many similar PDFs.
+
+Finally, we have a script that orders these outputs into a dataframe including the byte-encoded images from the images and stores the final table into our data warehouse.
